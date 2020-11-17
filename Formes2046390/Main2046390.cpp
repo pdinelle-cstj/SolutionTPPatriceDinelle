@@ -42,7 +42,7 @@ int main()
       if (choixRemplissage != RETOUR)
 	   {
 			// Ici, l'utilisateur a fait le choix d'une forme et du remplissage, il nous reste à traiter et dessiner la forme
-			switch (choixForme)
+			switch (choixForme) 
 			{	
 				case RECTANGLE :
                // Traiter forme demande les dimensions de la forme, affiche la phrase de présentation de la forme et appelle la fonction
